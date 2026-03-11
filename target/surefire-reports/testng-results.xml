@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-11T13:50:01 WIB" name="com.fakerapi.automation.view.PersonApiTest" finished-at="2026-03-11T13:50:05 WIB" duration-ms="3693">
+    <groups>
+    </groups>
+    <test started-at="2026-03-11T13:50:01 WIB" name="Command line test" finished-at="2026-03-11T13:50:05 WIB" duration-ms="3693">
+      <class name="com.fakerapi.automation.view.PersonApiTest">
+        <test-method is-config="true" signature="setupAndFetchData()[pri:0, instance:com.fakerapi.automation.view.PersonApiTest@543788f3]" started-at="2026-03-11T13:50:01 WIB" name="setupAndFetchData" finished-at="2026-03-11T13:50:05 WIB" duration-ms="3647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupAndFetchData -->
+        <test-method signature="verifyBirthdayIsWithinRange()[pri:0, instance:com.fakerapi.automation.view.PersonApiTest@543788f3]" started-at="2026-03-11T13:50:05 WIB" name="verifyBirthdayIsWithinRange" finished-at="2026-03-11T13:50:05 WIB" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBirthdayIsWithinRange -->
+        <test-method signature="verifyGenderOfAllPersons()[pri:0, instance:com.fakerapi.automation.view.PersonApiTest@543788f3]" started-at="2026-03-11T13:50:05 WIB" name="verifyGenderOfAllPersons" finished-at="2026-03-11T13:50:05 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGenderOfAllPersons -->
+        <test-method signature="verifyTotalDataAmount()[pri:0, instance:com.fakerapi.automation.view.PersonApiTest@543788f3]" started-at="2026-03-11T13:50:05 WIB" name="verifyTotalDataAmount" finished-at="2026-03-11T13:50:05 WIB" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalDataAmount -->
+      </class> <!-- com.fakerapi.automation.view.PersonApiTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.fakerapi.automation.view.PersonApiTest -->
+</testng-results>

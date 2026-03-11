@@ -1,0 +1,4 @@
+com/fakerapi/automation/model/Address.class
+com/fakerapi/automation/model/Person.class
+com/fakerapi/automation/model/ApiResponse.class
+com/fakerapi/automation/controller/PersonController.class
