@@ -41,7 +41,35 @@ To run the automated tests using Maven, open your terminal at the root of the pr
 mvn clean test
 ```
 
-This will download all necessary dependencies, compile the project, and execute the TestNG suites, providing results in your terminal output.
+This will download all necessary dependencies, compile the project, and execute all TestNG suites, providing results in your terminal output.
+
+### Running a Specific Test Class (Tutorial)
+
+If you want to run only the `PersonApiTest` class instead of the entire test suite, you can use the `-Dtest` parameter in Maven.
+
+1.  Open your terminal in the project root folder.
+2.  Run the following command:
+
+```bash
+mvn clean test -Dtest=PersonApiTest
+```
+
+**Expected Output:**
+
+If the API is behaving as expected, you should see a successful build output indicating that all tests in `PersonApiTest` have passed:
+
+```text
+[INFO] Running com.fakerapi.automation.view.PersonApiTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.456 s - in com.fakerapi.automation.view.PersonApiTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+```
 
 ## Testing with cURL
 
